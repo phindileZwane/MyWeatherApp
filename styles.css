@@ -1,11 +1,10 @@
 body{
     margin: 0;
     height: 100vh;
-    background-image: url(./image/cropped\ image.jpg);
+    background-image: url(./cropped\ image.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-    width: 80%;
      border-radius: 7px;
      color: white;
     width: 100%;
@@ -15,6 +14,7 @@ body{
 
 .main-container{
 color: white;
+background-image: url(./cropped\ image.jpg);
 }
 .display-flex{
     display: flex;
