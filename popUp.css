@@ -34,7 +34,7 @@ nav{
 }
 .location{
     position: absolute;
-   left: 50px;
+   left: 500px;
    color: black;
    bottom: .1em;
 }
@@ -50,4 +50,8 @@ section{
 
 footer{
     height: 20%;
+}
+.small-icons{
+    display: flex;
+    justify-content: space-around;
 }
