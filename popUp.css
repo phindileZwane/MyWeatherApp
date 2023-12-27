@@ -44,12 +44,7 @@ nav{
     border-radius: none;
     
 }
-.location{
-    position: absolute;
-   left: 500px;
-   color: black;
-   bottom: .1em;
-}
+
 section{
     height: 70%;
     display: flex;
@@ -66,4 +61,20 @@ footer{
 .small-icons{
     display: flex;
     justify-content: space-around;
+}
+.only-large-screen{
+    display: none;
+}
+@media  screen and (max-width:600px) {
+    .adjust{
+        width: 30em;
+    }
+    .only-large-screen{
+        display: inline;
+    }
+}
+@media screen and (max-width:450px) {
+    .adjust{
+        width: 25em;
+    }
 }
