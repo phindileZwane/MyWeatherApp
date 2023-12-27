@@ -41,13 +41,7 @@ section{
 .search{
     position: relative;
 }
-.btn{
-    position: absolute;
-    right: 1px;
-    top: 7px;
-    border: none;
-    background-color: white;
-}
+
 footer{
     height: 20%;
 }

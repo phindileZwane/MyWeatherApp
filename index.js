@@ -1,10 +1,10 @@
-let input = document.getElementById('search');
-function myFunction(){
-    window.location = "popUp.html"
+//let input = document.getElementById('search');
+//function myFunction(){
+   // window.location = "popUp.html"
 
-   getCoordinates();
+ //  getCoordinates();
    
-}
+//}
 
 
 function getCoordinates(){
