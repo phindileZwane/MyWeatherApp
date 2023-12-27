@@ -19,6 +19,10 @@ body{
     justify-content: center;
     align-items: center;
   }
+  .direction{
+    display: flex;
+    flex-direction: row;
+  }
 .main-container{
     color: white;
     height: 10%;
@@ -26,6 +30,13 @@ body{
 nav{
     position: relative;
     margin-top: 40px;
+}
+h3{
+    display: flex;
+    color: rgb(19, 2, 2);
+}
+.words{
+    color:  rgb(19, 2, 2);
 }
 .adjust{
     width: 35em;
