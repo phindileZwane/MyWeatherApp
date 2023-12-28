@@ -24,7 +24,7 @@ function getWeather(place){
     locations.textContent = data.name;
     icon.textContent = data.weather[0].icon;
     description.textContent = data.weather[0].description
-    temp.textContent = `${Math.round(data.main.temp) + "C"}`
+    temp.textContent = `${Math.round(data.main.temp) + "°" + "C"}`
 
   })
   .catch(error => {
