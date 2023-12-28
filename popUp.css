@@ -33,10 +33,10 @@ nav{
 }
 h3{
     display: flex;
-    color: rgb(19, 2, 2);
+    color:white;
 }
 .words{
-    color:  rgb(19, 2, 2);
+    color: white;
 }
 .adjust{
     width: 35em;
