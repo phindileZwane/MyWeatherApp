@@ -6,7 +6,7 @@ const description = document.getElementById("description")
 const temp = document.getElementById("temperature")
 
 const apiKey = "3e40b7da38ff873d21a3423887f04809"
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather"
+const apiUrl = "https://api.openweathermap.org/data/2.5/forecast"
 
 btn.addEventListener("click", () =>{
   const place = searchInput.value;
@@ -21,7 +21,7 @@ function getWeather(place){
   fetch(url)
   .then(response => response.json())
   .then(data => {
-    locations.textContent = data.name;
+    locations.textContent = list.name;
     icon.textContent = data.weather[0].icon;
     description.textContent = data.weather[0].description
     temp.textContent = `${Math.round(data.main.temp) + "°" + "C"}`
