@@ -11,9 +11,8 @@
 <body>
 <div class="main-container">
     <nav class="flex center-center">
-        
-        <div class="relative">
 
+        <div class="relative">
             <input type="text" class="adjust" id="search" placeholder="Enter City">
         <button class="btn"  id="button">
             <span class="material-symbols-outlined">
@@ -21,18 +20,21 @@
             </span>
         </button>
         </div>
+
         </nav>
         </div>
-        <section class=" flex center-center">
-            <div>
+        <section class="flex center-center"> 
+            <div id="currentWeather">
                 <div>
                     <h3 id="place">
                         Location
                     </h3>
                 </div>
-                <div class="icon" id="icon">
-                    <i class="fa fa-sun-o" style="font-size:80px;color:yellow"></i>
-                </div>
+                
+                    <span class="material-symbols-outlined" id="mainIcon"  >
+                        sunny
+                        </span>
+                
                 <div class="mine">
                     <div class="description">
                         <small id="description">
@@ -43,60 +45,36 @@
                         </h3>
                     </div>
             </div>
-            </div>
         </section>
 
-        <footer>
-            <div class="small-icons">
+            <div class="small-icons" id="small-icons">
+                
                 <div>
-                    <div class="footer-icon" data-icon>
-                      
-                    </div>
-                    <div class="time" data-time>
+                    <img src="" alt="Hourly Weather Icon"  id="small-img">
+                    <span class="time" id="timezone">
                         <small>
-                           
+                           16h00
                         </small>
-                    </div>
-                       
-                        <div class="footer-temp" data-temperature>
-                           <span>10</span> <span> &deg;</span>
-                        </div>
+                    </span>
+                    <span id="small-temp">
+                        17 &deg;
+                    </span>
                 </div>
                 <div>
-                    <div class="footer-icon">
-                        <span class="material-symbols-outlined">
-                            partly_cloudy_day
-                            </span>
-                    </div>
-                    <div class="time">
+                    <img src="" alt="Hourly Weather Icon">
+                    <span class="time" id="timezone">
                         <small>
-                            12h00 
+                           20h00
                         </small>
-                    </div>
-                   <div class="footer-temp">
-                    10&deg;
-                   </div>
-                       
+                    </span>
+                    <span>
+                        9 &deg;
+                    </span>
                 </div>
-                <div>
-                    <div class="footer-icon">
-                        <span class="material-symbols-outlined">
-                            rainy
-                            </span>
-                    </div>
-                    <div class="time">
-                        <small>
-                            13h00
-                        </small>
-                    </div>
-                    <div class="footer-temp">
-                        8&deg;
-                    </div>
-                    
-                      
-                </div>
+
+
             </div>
-        </footer>
+        
 </body>
 <script src="./index.js"></script>
 </html>
